@@ -16,6 +16,9 @@ const query = groq`*[_type == "post"] {
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const revalidate = 30;
+// Revalidate code after 30 seconds
+
 export default async function HomePage() {
   if (previewData()) {
     return (

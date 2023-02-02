@@ -12,8 +12,8 @@ type Props = {
   };
 };
 
-export const revalidate = 60;
-// Revalidate code after 60 seconds
+export const revalidate = 30;
+// Revalidate code after 30 seconds
 
 export async function generateStaticParams() {
   const query = groq`*[_type == "post"]{
