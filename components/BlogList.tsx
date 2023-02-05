@@ -20,7 +20,7 @@ function BlogList({ posts }: Props) {
               <div className="relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200">
                 <Image
                   className="object-cover object-left lg:object-center"
-                  src={urlFor(post.mainImage).url()}
+                  src={urlFor(post.mainImage)?.url()}
                   alt={post.author.name}
                   fill
                 />

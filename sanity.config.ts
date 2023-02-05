@@ -12,9 +12,9 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET;
 
 export default defineConfig({
   basePath: "/studio",
-  name: "Realty-S-CMS",
-  title: "Realty S CMS",
-  projectId: "56yvtnu3",
+  name: "Realty-Sanity-CMS",
+  title: "Realty Sanity CMS",
+  projectId: "ie73nwi4",
   dataset: "production",
 
   plugins: [

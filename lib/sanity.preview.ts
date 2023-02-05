@@ -14,7 +14,7 @@ if (!projectId || !dataset) {
 }
 
 export const usePreview = definePreview({
-  projectId: "56yvtnu3",
+  projectId: "ie73nwi4",
   dataset: "production",
   onPublicAccessOnly,
 });
